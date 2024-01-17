@@ -1,0 +1,15 @@
+body {
+  font-family: 'Roboto', Arial, sans-serif; 
+  font-size: 22px;
+  line-height: 1.8;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Orbitron', Palatino Linotype, Book Antiqua, Palatino, serif;
+  max-width: 85ch;
+}
+
+main {
+  max-width: 85ch;
+  margin: auto;
+}
