@@ -2,7 +2,6 @@
 Daily sample code for 201 example
 
 ## H2 heading
-Showing an example of what happens during a merge conflict.
+Showing an exmaple of what happens during a merge conflict.
 
-### H3 heading
-An example of h3 heading.
+### H3 subheading
