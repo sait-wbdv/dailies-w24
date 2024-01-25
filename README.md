@@ -5,3 +5,4 @@ Daily sample code for 201 example
 Showing an exmaple of what happens during a merge conflict.
 
 ### H3 subheading
+In class, i"m showing an example of git conflict.
