@@ -1,0 +1,17 @@
+body {
+  font-size: 128px;
+  margin: 0;
+}
+
+header {
+} 
+
+p {
+  font-family: 'Nabla', Arial, Helvetica, cursive;
+  font-size: clamp(64px, 10vw, 128px);
+  min-height: calc(100vh - 70px);
+}
+
+.footer {
+ 
+}
