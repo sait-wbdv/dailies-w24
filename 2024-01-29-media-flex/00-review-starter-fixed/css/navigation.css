@@ -1,0 +1,22 @@
+/* Primary Navigation */
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+  
+    background-color: black;
+  }
+  
+/* Clickable links */
+nav a {
+    display: block;
+    padding: 1rem;
+
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+  
+nav a:hover {
+color: black;
+background-color: white;
+}

@@ -1,0 +1,29 @@
+.text-box {
+  max-width: 85ch;
+  background-color: blue;
+}
+
+.center-container {
+  margin: auto;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    background-color: purple;
+  }
+
+  ul {
+    flex-direction: column;
+  }
+
+  .text-box {
+    max-width: 85ch;
+    background-color: red;
+  }
+  
+  .center-container {
+    margin: auto;
+  }
+}
+
+
