@@ -1,0 +1,29 @@
+/* Start by defining grid-template-columns on the container */
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 20vmin;
+  line-height: none;
+}
+section {
+  /* margin: auto;
+  width: 50%;
+  height: 50% */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0.5rem;
+
+  width: 80vmin;
+  margin: auto;
+  background-color: black;
+}
+
+article {
+  text-align: center;
+  font-size: 1em;
+  color: black;
+  background-color: whitesmoke;
+}

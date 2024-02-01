@@ -1,0 +1,10 @@
+/* CSS Grid code here */
+
+section {
+  display: grid;
+  /* grid-template-columns: minmax(200px, 500px) repeat(2, 1fr) ; */
+  grid-template-columns: 1fr 1fr 2fr;
+  grid-template-rows: 0.5fr 1fr;
+  grid-auto-rows: 0.5fr;
+  gap: 2rem;
+}

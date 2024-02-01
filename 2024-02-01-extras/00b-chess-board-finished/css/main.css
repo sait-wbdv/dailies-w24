@@ -1,0 +1,68 @@
+/* Start by defining grid-template-columns on the container */
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  display: grid;
+  grid-template-rows: 1fr;
+  width: 100%;
+}
+
+.row-1 {
+  display: grid;
+  grid-template-columns: repeat(8, 50px);
+  grid-template-rows: 50px;
+  /* width: 80vmin; */
+  margin: auto;
+  height: 50px;
+}
+
+article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+article:hover {
+  background-color: lightgreen;
+  opacity: 0.5;
+}
+
+.row-2 {
+  display: grid;
+  grid-template-columns: repeat(8, 50px);
+  grid-template-rows: 50px;
+  height: 50px;
+
+  /* width: 80vmin; */
+  margin: auto;
+}
+/* 
+.row-1 {
+ 
+  width: 100%
+} */
+
+section > * {
+  aspect-ratio: 1/1;
+  background-color: black;
+  border: 1px solid black;
+}
+
+
+.row-1 > article:nth-child(even) {
+  background-color: white;
+}
+
+.row-2 > article:nth-child(odd) {
+  background-color: white;
+}
+
+/* article:nth-child(even) {
+  background-color: #2f2f2f;
+} */
+

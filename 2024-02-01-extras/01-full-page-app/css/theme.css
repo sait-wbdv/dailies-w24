@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  font-family: 'Poppins';
+  line-height: 1.7em;
+  color: hsl(150, 67%, 99%);
+  max-width: 100%;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+main {
+  margin: 2em;
+  color: hsl(200, 8%, 8%);
+}
+
+/* Colors */ 
+
+/* 60% :    background-color: hsl(200, 8%, 8%); */
+/* 30% :    color: hsl(150, 67%, 99%); */
+/* 10% :    accent-colors: hsl(160, 100%, 50%); */

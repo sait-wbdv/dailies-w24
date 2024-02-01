@@ -1,0 +1,105 @@
+
+/* Layout */
+
+/* Header */
+header {
+  background-image: linear-gradient(150deg, hsl(150, 67%, 99%), hsl(200, 8%, 8%));
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* NavBar */
+.navbar {
+  background-color: hsl(200, 8%, 8%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 2em;
+}
+
+.no-underline:hover {
+  text-decoration: none;
+}
+
+.nav-list {
+  display: flex;
+  gap: 1em;
+}
+
+.nav-list li a:hover {
+  color: hsl(160, 100%, 50%);
+  /* transition: width 2s, height 2s, transform 1s; */
+}
+
+.nav-list li a:active {
+  color: hsl(160, 100%, 50%);
+  opacity: 0.5;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  margin: 3em;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 40ch;
+  border: 2px solid hsl(150, 67%, 99%);
+  padding: 2em;
+}
+
+#hero-paragraph-home{
+  font-size: 1.2em;
+}
+
+.hero-text a {
+  padding: 0.5em 1em;
+  background-color: hsl(160, 100%, 50%);
+  color: hsl(200, 8%, 8%);
+  border-radius: 10px;
+}
+
+/* Main section */
+.content {
+  margin: 2em;
+  color: hsl(200, 8%, 8%);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 0.5fr;
+  grid-gap: 2em;
+}
+
+.content-card {
+  padding: 1em;
+  background-color: hsl(200, 8%, 8%);
+  color: hsl(150, 67%, 99%);
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+/* Contact Page */
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Footer section */
+footer {
+  background-color: hsl(200, 8%, 8%);
+  padding: 20px;
+  margin: 2em 0 0 0;
+  margin-bottom: 0px;
+  text-align: center;
+}

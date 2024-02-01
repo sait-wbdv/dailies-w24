@@ -1,0 +1,12 @@
+/* responsive styles for desktop first */
+
+@media screen and (min-width: 810px){
+  .hero-content {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .content {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
