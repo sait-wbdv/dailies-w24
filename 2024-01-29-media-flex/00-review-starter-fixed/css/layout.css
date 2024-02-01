@@ -1,0 +1,8 @@
+ /* Base layout */
+header, main {
+    padding: 1rem;
+}
+  
+header {
+    text-align: center;
+}
