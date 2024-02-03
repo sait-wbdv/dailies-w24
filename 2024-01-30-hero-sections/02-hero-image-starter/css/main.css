@@ -1,5 +1,5 @@
 body {
-  font-size: 128px;
+  font-size: 20px;
   margin: 0;
 }
 
@@ -13,5 +13,10 @@ p {
 }
 
 .footer {
- 
+  /* flex-shrink: 0; */
+  font-size: large;
+  background: #42A5F5;
+  color: white;
+  padding: 20px;
+  height: 50px;
 }

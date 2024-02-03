@@ -1,9 +1,12 @@
 
 /* Layout */
+body {
+
+}
 
 /* Header */
 header {
-  background-image: linear-gradient(150deg, hsl(150, 67%, 99%), hsl(200, 8%, 8%));
+  /* background-image: linear-gradient(150deg, hsl(150, 67%, 99%), hsl(200, 8%, 8%)); */
   min-height: 90vh;
   display: flex;
   flex-direction: column;
@@ -35,6 +38,10 @@ header {
 .nav-list li a:active {
   color: hsl(160, 100%, 50%);
   opacity: 0.5;
+}
+
+.current {
+  color: hsl(160, 100%, 50%);
 }
 
 .hero-content {
@@ -91,6 +98,13 @@ header {
 /* Contact Page */
 
 .contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* About us */
+.hero-content-about {
   display: flex;
   flex-direction: column;
 }

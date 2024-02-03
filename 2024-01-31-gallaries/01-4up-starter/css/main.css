@@ -6,3 +6,23 @@ header {
 img {
   width: 100%;
 }
+
+.grid:nth-child(4n-3), .grid:nth-child(4n)  {
+  background-color: blue;
+  border: 2px solid green;
+}
+
+.grid:nth-child(4n-1), .grid:nth-child(4n-2) {
+  background-color: green;
+  border: 2px solid blue;
+}
+
+/* .grid:nth-child(odd) {
+  background-color: blue;
+  border: 2px solid green;
+}
+
+.grid:nth-child(even) {
+  background-color: green;
+  border: 2px solid blue;
+} */
